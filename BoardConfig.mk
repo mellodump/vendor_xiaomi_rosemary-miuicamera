@@ -9,8 +9,5 @@ include vendor/xiaomi/miuicamera-camellia/BoardConfigVendor.mk
 
 MIUICAMERA_PATH := device/xiaomi/miuicamera-camellia
 
-# Properties
-TARGET_SYSTEM_PROP += $(MIUICAMERA_PATH)/system.prop
-
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(MIUICAMERA_PATH)/sepolicy/vendor

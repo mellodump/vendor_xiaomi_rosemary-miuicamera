@@ -11,6 +11,14 @@ $(call inherit-product, vendor/xiaomi/miuicamera-camellia/miuicamera-camellia-ve
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml
 
+# Properties
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.vendor.camera.privapp.list=com.android.camera \
+    ro.miui.build.region=global \
+    ro.miui.notch=1 \
+    ro.product.mod_device=_global \
+    ro.com.google.lens.oem_camera_package=com.android.camera
+
 # Shims
 PRODUCT_PACKAGES += \
     libgui_shim_miuicamera
