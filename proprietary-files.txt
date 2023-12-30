@@ -1,9 +1,15 @@
-# All unpinned blobs below are extracted from camellia V14.0.6.0.TKSMIXM
+# All unpinned blobs below are extracted from rosemary V14.0.7.0.TKSMIXM
 
+# Micam APK
 product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,Camera2,Aperture
+
+# System
 system/etc/public.libraries-xiaomi.txt
 system/lib64/libcamera_algoup_jni.xiaomi.so
 system/lib64/libcamera_mianode_jni.xiaomi.so
 system/lib64/libcamera_ispinterface_jni.xiaomi.so
 system/lib64/libmtkisp_metadata_sys.so
 system/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
+
+# Libmialgoengine
+vendor/lib64/libmialgoengine.so

@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=miuicamera-camellia
-VENDOR=xiaomi
+DEVICE=common
+VENDOR=xiaomi/rosemary-miuicamera
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
